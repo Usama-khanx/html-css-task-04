@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header-contianer{
+    display: flex;
+    flex-direction: column;
+
+}
+/* This is for a navigation image */
+.nav-image {
+    align-self: center;
+}
+
+/* This is for navigation menu */
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px 0;
+
+    background-color: #31353c;
+    padding: 26px 0;
+   
+}
+
+.nav-items > li{
+    list-style: none;
+
+}
+.nav-items  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+/* navbar k nichay content k lia */
+.section-1 {
+    display: flex;
+    width: 100vw;
+
+    
+
+}
+
+.search-box  {
+    width: 50%;
+    font-size: large;
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+   
+}
+.input-field {
+    padding: 10px 0;
+
+}
+.image-2 {
+   
+   
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.image-2 > img{
+    width: 50%;
+}
+
+
+/* section 2 start here */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin: 3rem 0;
+   
+}
+.section-2 h1, p {
+    margin: 16px 0;
+}
+#heading-1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
