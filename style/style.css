@@ -4,11 +4,13 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.header-contianer{
+
+.header-contianer {
     display: flex;
     flex-direction: column;
 
 }
+
 /* This is for a navigation image */
 .nav-image {
     align-self: center;
@@ -23,14 +25,18 @@
 
     background-color: #31353c;
     padding: 26px 0;
-   
+    box-shadow: 10px 1px 22px #d7cfcf;
+    
+
 }
 
-.nav-items > li{
+
+.nav-items>li {
     list-style: none;
 
 }
-.nav-items  a{
+
+.nav-items a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -39,52 +45,210 @@
 /* navbar k nichay content k lia */
 .section-1 {
     display: flex;
-    width: 100vw;
-
-    
-
+    justify-content: space-evenly;
 }
 
-.search-box  {
-    width: 50%;
-    font-size: large;
-    
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
-   
+.section-1>img {
+    width: 350px;
 }
-.input-field {
-    padding: 10px 0;
+
+.section-1>div {
+    align-self: center;
+}
+
+#input-field {
+    padding: 12px 12px;
+    border-radius: 6px 6px 6px 6px;
 
 }
-.image-2 {
-   
-   
-    display: flex;
-   
-    justify-content: center;
-    align-items: center;
-}
-.image-2 > img{
-    width: 50%;
-}
+
+
+
 
 
 /* section 2 start here */
 .section-2 {
     display: flex;
     flex-direction: column;
-    align-items:  center;
+    align-items: center;
     margin: 3rem 0;
-   
+
 }
-.section-2 h1, p {
+
+.section-2 h1,
+p {
     margin: 16px 0;
 }
-#heading-1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
+
+#heading-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* sellers bookss card  */
+.group-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.books {
+    /* height: 350px; */
+    height: 70vh;
+    width: 80vw;
+    padding-bottom: 10px;
+    margin: 0 4px;
+}
+
+.books img {
+    /* height: 300px; */
+    height: 80%;
+    width: 99%;
+    filter: opacity(0.9);
+}
+
+.heading-andbutton {
+    position: relative;
+    top: -100px;
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-color: #151313;
+    opacity: 0.8;
+    padding: 8px 0;
+    margin: 0 1px;
+    transition: font-size 1s ease-in 0s;
+
+}
+
+.heading-andbutton:hover {
+    font-size: larger;
+}
+
+.group-cards button {
+    position: relative;
+    top: -100px;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+    width: 10vw;
+    height: 7vh;
+    background-color: #151313;
+    opacity: 0.8;
+}
+
+.group-cards button:hover {
+    background-color: #ffffff;
+    /* opacity: 0.7; */
+    color: black;
+    border-radius: 7px;
+}
+
+/* section 4 begin  */
+
+/*  bookss card  */
+.group-cards-4 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.books-4 {
+    background-color: #c3dada;
+    /* height: 350px; */
+    height: 60vh;
+    width: 80vw;
+    padding-bottom: 10px;
+    margin: 0 4px;
+}
+
+.books-4 img {
+    /* height: 300px; */
+    height: 96%;
+    width: 95%;
+    filter: opacity(0.9);
+    display: block;
+    margin: 8px auto;
+}
+
+.heading-andbutton-4 {
+    position: relative;
+    top: -110px;
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-color: #151313;
+    opacity: 0.8;
+    padding: 8px 0;
+    margin: 0 1px;
+    transition: font-size 1s ease-in 0s;
+
+}
+
+.heading-andbutton-4:hover {
+    font-size: larger;
+}
+
+.group-cards-4 button {
+    position: relative;
+    top: -110px;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+    width: 10vw;
+    height: 7vh;
+    background-color: #151313;
+    opacity: 0.8;
+}
+
+.group-cards-4 button:hover {
+    background-color: #ffffff;
+    /* opacity: 0.7; */
+    color: black;
+    border-radius: 7px;
+}
+
+/* section 5 */
+.section-5 {
+   
+    background-color: #ddeded;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    width: 80vw;
+    margin: 26px auto;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 10px 3px #d0e4e3;
+}
+.section-5 h1, div{
+    margin: 8px 0;
+}
+.contact-img{
+    width: 50px;
+   
+}
+
+/* footer */
+
+.footer{
+    margin: 26px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f2f5f6;
+    box-shadow: 10px 0 5px #bfbfce;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+}
+.main-menu  > a{
+    color: black;
+
+}
+.footer-img{
+    width: 25%;
+    height: 220px;
 }
