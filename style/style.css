@@ -14,14 +14,17 @@
 /* This is for a navigation image */
 .nav-image {
     align-self: center;
+    
+    
 }
+
 
 /* This is for navigation menu */
 .nav-items {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 15px 0;
+    /* margin: 15px 0; */
 
     background-color: #31353c;
     padding: 26px 0;
